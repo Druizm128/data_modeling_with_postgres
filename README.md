@@ -26,5 +26,3 @@ The code in this repo are ETLs to load songplays, users, songs, artists and time
     - time
 * `sql_queries.py`: Script with all the drop, create and insert SQL commands.
 * `test.ipynb`: Script that tests the existence and content of each of the tables in the database.
-# data_modeling_with_postgres
-# data_modeling_with_postgres
