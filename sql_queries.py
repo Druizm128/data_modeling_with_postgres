@@ -62,8 +62,7 @@ time_table_create = ("""
 # INSERT RECORDS
 
 songplay_table_insert = ("""
-    INSERT INTO songplays (
-        songplay_id, 
+    INSERT INTO songplays ( 
         start_time, 
         user_id, 
         level, 
@@ -72,8 +71,7 @@ songplay_table_insert = ("""
         session_id, 
         location, 
         user_agent) 
-    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
-    ON CONFLICT DO NOTHING
+    VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
 """)
 
 user_table_insert = ("""
