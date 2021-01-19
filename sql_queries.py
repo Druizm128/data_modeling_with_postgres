@@ -73,7 +73,6 @@ songplay_table_insert = ("""
         location, 
         user_agent) 
     VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
-    ON CONFLICT DO NOTHING
 """)
 
 user_table_insert = ("""
