@@ -70,7 +70,7 @@ songplay_table_insert = ("""
         artist_id, 
         session_id, 
         location, 
-        user_agent) 
+        user_agent)
     VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
 """)
 
